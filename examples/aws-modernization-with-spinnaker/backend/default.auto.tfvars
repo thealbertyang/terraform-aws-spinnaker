@@ -1,7 +1,7 @@
-aws_region = "ap-northeast-2"
-name       = "hello"
+aws_region = "us-east-1"
+name       = "spinnaker"
 tags = {
-  owner   = "yourid"
+  owner   = "albert"
   team    = "devops"
-  billing = "prod"
+  billing = "dev"
 }

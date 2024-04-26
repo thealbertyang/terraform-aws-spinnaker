@@ -1,10 +1,10 @@
-aws_region         = "ap-northeast-2"
-azs                = ["ap-northeast-2a", "ap-northeast-2b", "ap-northeast-2c"]
+aws_region         = "us-east-1"
+azs                = ["us-east-1a", "us-east-1b", "us-east-1c"]
 kubernetes_version = "1.24"
 spinnaker_version  = "1.24.5"
-name               = "hello"
+name               = "spinnaker"
 tags = {
-  owner   = "yourid"
+  owner   = "albert"
   team    = "devops"
-  billing = "prod"
+  billing = "dev"
 }
